@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fbb42366-1771-43e8-902e-6c453e03bb1c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/linkedin/app/TemperatureConverterTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="02_06b" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="homebrew-17" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2y4lUIZatMEVcoQAxnygmgAkik7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.CalculatorTest.addTest.executor": "Run",
+    "JUnit.CalculatorTest.devideNonZeroTest.executor": "Run",
+    "JUnit.CalculatorTest.divideByZero.executor": "Run",
+    "JUnit.CalculatorTest.divideByZeroTest.executor": "Run",
+    "JUnit.CalculatorTest.executor": "Run",
+    "JUnit.ShoppingCartTest.addItem.executor": "Debug",
+    "JUnit.ShoppingCartTest.executor": "Run",
+    "JUnit.TemperatureConverterTest.celsiusToFahrenheitCorrectOutput.executor": "Run",
+    "JUnit.TemperatureConverterTest.celsiusToFahrenheitException.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "02__09b",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "http.proxy",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TemperatureConverterTest">
+    <configuration name="ShoppingCartTest.addItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linkedin.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.linkedin.app" />
+      <option name="MAIN_CLASS_NAME" value="com.linkedin.app.ShoppingCartTest" />
+      <option name="METHOD_NAME" value="addItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemperatureConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linkedin.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.linkedin.app" />
+      <option name="MAIN_CLASS_NAME" value="com.linkedin.app.TemperatureConverterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemperatureConverterTest.celsiusToFahrenheitCorrectOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linkedin.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.linkedin.app" />
+      <option name="MAIN_CLASS_NAME" value="com.linkedin.app.TemperatureConverterTest" />
+      <option name="METHOD_NAME" value="celsiusToFahrenheitCorrectOutput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemperatureConverterTest.celsiusToFahrenheitException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linkedin.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.linkedin.app" />
+      <option name="MAIN_CLASS_NAME" value="com.linkedin.app.TemperatureConverterTest" />
+      <option name="METHOD_NAME" value="celsiusToFahrenheitException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemperatureConverterTest.fahrenheitToCelsiusException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linkedin.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.linkedin.app" />
+      <option name="MAIN_CLASS_NAME" value="com.linkedin.app.TemperatureConverterTest" />
+      <option name="METHOD_NAME" value="fahrenheitToCelsiusException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TemperatureConverterTest" />
+        <item itemvalue="JUnit.TemperatureConverterTest.fahrenheitToCelsiusException" />
+        <item itemvalue="JUnit.TemperatureConverterTest.celsiusToFahrenheitException" />
+        <item itemvalue="JUnit.TemperatureConverterTest.celsiusToFahrenheitCorrectOutput" />
+        <item itemvalue="JUnit.ShoppingCartTest.addItem" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fbb42366-1771-43e8-902e-6c453e03bb1c" name="Changes" comment="" />
+      <created>1739488745770</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739488745770</updated>
+      <workItem from="1739488747462" duration="815000" />
+      <workItem from="1740186963486" duration="128000" />
+      <workItem from="1749101741338" duration="5425000" />
+      <workItem from="1749107831462" duration="160000" />
+      <workItem from="1749108460833" duration="269000" />
+      <workItem from="1749109062067" duration="277000" />
+      <workItem from="1749109553235" duration="640000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
