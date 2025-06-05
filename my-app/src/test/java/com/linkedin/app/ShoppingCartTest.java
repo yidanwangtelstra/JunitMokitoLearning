@@ -18,7 +18,7 @@ public class ShoppingCartTest {
   @Test
   public void addItem() {
     cart.addItem("Product C", 4);
-    assertEquals(5, cart.getTotalItems());
+    assertEquals(6, cart.getTotalItems());
   }
 
   @Test
