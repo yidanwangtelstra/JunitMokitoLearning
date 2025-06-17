@@ -23,4 +23,7 @@ public class TaskManager {
     return tasks.size();
   }
 
+  public void remove(Integer id) {
+    tasks.remove(id);
+  }
 }

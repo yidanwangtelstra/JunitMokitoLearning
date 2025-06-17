@@ -1,9 +1,8 @@
 package com.linkedin.app;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class TaskManagerTest {
 
@@ -28,5 +27,18 @@ public class TaskManagerTest {
     assertTrue(taskManager.exists(task1.getId()));
     assertTrue(taskManager.exists(task2.getId()));
     assertEquals(2, taskManager.count());
+  }
+
+  @Test
+  public void removeTask(){
+    TaskManager taskManager = new TaskManager();
+    Task task = new Task();
+    taskManager.add(task);
+    int preTaskCount = taskManager.count();
+
+    taskManager.remove(task.getId());
+    assertTrue(!taskManager.exists(task.getId()));
+    assertFalse(taskManager.exists(task.getId()));
+    assertEquals(preTaskCount-1, taskManager.count());
   }
 }
