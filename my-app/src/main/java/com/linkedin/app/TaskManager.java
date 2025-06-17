@@ -15,11 +15,11 @@ public class TaskManager {
     tasks.put(task.getId(), task);
   }
 
-  public void remove(int taskId) {
+  public void remove(Integer taskId) {
     tasks.remove(taskId);
   }
 
-  public boolean exists(int taskId) {
+  public boolean exists(Integer taskId) {
     return tasks.containsKey(taskId);
   }
 
@@ -27,4 +27,7 @@ public class TaskManager {
     return tasks.size();
   }
 
+  public Task get(Integer id) {
+    return tasks.get(id);
+  }
 }

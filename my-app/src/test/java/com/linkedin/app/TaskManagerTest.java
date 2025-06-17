@@ -43,4 +43,14 @@ public class TaskManagerTest {
     assertFalse(taskManager.exists(task.getId()));
     assertEquals(preTaskCount - 1, taskManager.count());
   }
+
+  @Test
+  public void getTask(){
+    TaskManager taskManager = new TaskManager();
+    Task task = new Task("Buy new books");
+    taskManager.add(task);
+
+    Task result = taskManager.get(task.getId());
+    assertEquals(task, result);
+  }
 }
