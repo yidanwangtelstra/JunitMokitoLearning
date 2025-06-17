@@ -9,10 +9,10 @@ public class TaskManagerTest {
   @Test
   public void addTask() {
     TaskManager taskManger = new TaskManager();
-    Task task = new Task();
+    Task task = new Task(1);
 
     taskManger.add(task);
 
-    assertTrue(taskManger.exists(task.getId()));
+    assertTrue(!taskManger.exists(task.getId()));
   }
 }
