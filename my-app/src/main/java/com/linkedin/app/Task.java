@@ -19,4 +19,7 @@ public class Task {
     return description;
   }
 
+  public void setDescription(String newDescription) {
+    this.description = newDescription;
+  }
 }
