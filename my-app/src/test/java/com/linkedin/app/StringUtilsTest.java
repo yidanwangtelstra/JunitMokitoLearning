@@ -1,34 +1,24 @@
 package com.linkedin.app;
 
+
+
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
+
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.jupiter.api.Test;
-
 public class StringUtilsTest {
 
-  @Test
-  void isPalindromeWithEmptyString() {
-    assertTrue(StringUtils.isPalindrome(""));
+  @ParameterizedTest
+  @ValueSource(strings = {"", "a", "racecar", "RACEcar"})
+  public void isPalindrome(String str){
+    assertTrue(StringUtils.isPalindrome(str));
   }
 
-  @Test
-  void isPalindromeWithSingleCharacter() {
-    assertTrue(StringUtils.isPalindrome("a"));
-  }
-
-  @Test
-  void isPalindromeWithPalindromeString() {
-    assertTrue(StringUtils.isPalindrome("racecar"));
-  }
-
-  @Test
-  void isPalindromeWithNonPalindromeString() {
-    assertFalse(StringUtils.isPalindrome("hello"));
-  }
-
-  @Test
-  void isPalindromeWithMixedCasePalindromeString() {
-    assertTrue(StringUtils.isPalindrome("RaceCar"));
+  @ParameterizedTest
+  @ValueSource(strings = {"hello", "world", "java", "test"})
+  public void isNotPalindrome(String str){
+    assertFalse(StringUtils.isPalindrome(str));
   }
 }
