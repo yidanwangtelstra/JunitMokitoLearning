@@ -7,7 +7,17 @@ public class EmailValidator {
       return false;
     }
 
-    String[] parts = email.split("@");
+    String[] parts;
+
+    try {
+      parts = email.split("@");
+    } catch (Exception e) {
+      return false;
+    }
+
+    if (parts.length != 2) {
+      return false;
+    }
 
     String localPart = parts[0];
     String domainPart = parts[1];
