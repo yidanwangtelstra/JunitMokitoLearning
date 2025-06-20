@@ -1,60 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.linkedin.app.CalculatorTest" time="0.159" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.linkedin.app.CalculatorTest" time="0.039" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/workspaces/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app/target/test-classes:/workspaces/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app/target/classes:/home/vscode/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.3/junit-jupiter-api-5.10.3.jar:/home/vscode/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/vscode/.m2/repository/org/junit/platform/junit-platform-commons/1.10.3/junit-platform-commons-1.10.3.jar:/home/vscode/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/vscode/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.3/junit-jupiter-params-5.10.3.jar:/home/vscode/.m2/repository/org/junit/platform/junit-platform-suite-api/1.10.3/junit-platform-suite-api-1.10.3.jar:/home/vscode/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.10.3/junit-platform-suite-engine-1.10.3.jar:/home/vscode/.m2/repository/org/junit/platform/junit-platform-engine/1.10.3/junit-platform-engine-1.10.3.jar:/home/vscode/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.10.3/junit-platform-suite-commons-1.10.3.jar:/home/vscode/.m2/repository/org/junit/platform/junit-platform-launcher/1.10.3/junit-platform-launcher-1.10.3.jar:"/>
-    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="java.class.path" value="/Users/yidan.wang/Desktop/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app/target/test-classes:/Users/yidan.wang/Desktop/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app/target/classes:/Users/yidan.wang/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.3/junit-jupiter-api-5.10.3.jar:/Users/yidan.wang/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/yidan.wang/.m2/repository/org/junit/platform/junit-platform-commons/1.10.3/junit-platform-commons-1.10.3.jar:/Users/yidan.wang/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/yidan.wang/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.3/junit-jupiter-params-5.10.3.jar:/Users/yidan.wang/.m2/repository/org/junit/platform/junit-platform-suite-api/1.10.3/junit-platform-suite-api-1.10.3.jar:/Users/yidan.wang/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.10.3/junit-platform-suite-engine-1.10.3.jar:/Users/yidan.wang/.m2/repository/org/junit/platform/junit-platform-engine/1.10.3/junit-platform-engine-1.10.3.jar:/Users/yidan.wang/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.10.3/junit-platform-suite-commons-1.10.3.jar:/Users/yidan.wang/.m2/repository/org/junit/platform/junit-platform-launcher/1.10.3/junit-platform-launcher-1.10.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="https://www.microsoft.com"/>
-    <property name="os.name" value="Linux"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Australia/Adelaide"/>
+    <property name="os.name" value="Mac OS X"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/msopenjdk-current/lib"/>
-    <property name="sun.java.command" value="/workspaces/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app/target/surefire/surefirebooter10191524810378440547.jar /workspaces/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app/target/surefire 2024-08-07T19-21-29_363-jvmRun1 surefire7006684882307866tmp surefire_017706210003105586063tmp"/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/yidan.wang/Desktop/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app/target/surefire/surefirebooter11781484910508452070.jar /Users/yidan.wang/Desktop/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app/target/surefire 2025-06-20T11-53-36_889-jvmRun1 surefire4876728243660538038tmp surefire_0455690804764046582tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/workspaces/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app/target/test-classes:/workspaces/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app/target/classes:/home/vscode/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.3/junit-jupiter-api-5.10.3.jar:/home/vscode/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/vscode/.m2/repository/org/junit/platform/junit-platform-commons/1.10.3/junit-platform-commons-1.10.3.jar:/home/vscode/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/vscode/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.3/junit-jupiter-params-5.10.3.jar:/home/vscode/.m2/repository/org/junit/platform/junit-platform-suite-api/1.10.3/junit-platform-suite-api-1.10.3.jar:/home/vscode/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.10.3/junit-platform-suite-engine-1.10.3.jar:/home/vscode/.m2/repository/org/junit/platform/junit-platform-engine/1.10.3/junit-platform-engine-1.10.3.jar:/home/vscode/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.10.3/junit-platform-suite-commons-1.10.3.jar:/home/vscode/.m2/repository/org/junit/platform/junit-platform-launcher/1.10.3/junit-platform-launcher-1.10.3.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/yidan.wang/Desktop/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app/target/test-classes:/Users/yidan.wang/Desktop/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app/target/classes:/Users/yidan.wang/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.3/junit-jupiter-api-5.10.3.jar:/Users/yidan.wang/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/yidan.wang/.m2/repository/org/junit/platform/junit-platform-commons/1.10.3/junit-platform-commons-1.10.3.jar:/Users/yidan.wang/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/yidan.wang/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.3/junit-jupiter-params-5.10.3.jar:/Users/yidan.wang/.m2/repository/org/junit/platform/junit-platform-suite-api/1.10.3/junit-platform-suite-api-1.10.3.jar:/Users/yidan.wang/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.10.3/junit-platform-suite-engine-1.10.3.jar:/Users/yidan.wang/.m2/repository/org/junit/platform/junit-platform-engine/1.10.3/junit-platform-engine-1.10.3.jar:/Users/yidan.wang/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.10.3/junit-platform-suite-commons-1.10.3.jar:/Users/yidan.wang/.m2/repository/org/junit/platform/junit-platform-launcher/1.10.3/junit-platform-launcher-1.10.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/home/vscode"/>
+    <property name="user.home" value="/Users/yidan.wang"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2023-04-18"/>
-    <property name="java.home" value="/usr/lib/jvm/msopenjdk-current"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/workspaces/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="basedir" value="/Users/yidan.wang/Desktop/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/workspaces/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app/target/surefire/surefirebooter10191524810378440547.jar"/>
+    <property name="surefire.real.class.path" value="/Users/yidan.wang/Desktop/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app/target/surefire/surefirebooter11781484910508452070.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="17.0.7+7-LTS"/>
-    <property name="user.name" value="vscode"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="yidan.wang"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="6.5.0-1022-azure"/>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="os.version" value="15.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="Microsoft-7626293"/>
-    <property name="localRepository" value="/home/vscode/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
-    <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="java.version" value="17.0.7"/>
-    <property name="user.dir" value="/workspaces/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app"/>
-    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/yidan.wang/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/wl/nq5nh5s1293b_n59j8gz_32c0000gp/T/"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="/Users/yidan.wang/Desktop/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app"/>
+    <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.library.path" value="/Users/yidan.wang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.vendor" value="Microsoft"/>
-    <property name="java.vm.version" value="17.0.7+7-LTS"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="subtract" classname="com.linkedin.app.CalculatorTest" time="0.069"/>
-  <testcase name="divide" classname="com.linkedin.app.CalculatorTest" time="0.006"/>
-  <testcase name="add" classname="com.linkedin.app.CalculatorTest" time="0.002"/>
-  <testcase name="multiply" classname="com.linkedin.app.CalculatorTest" time="0.003"/>
-  <testcase name="divideByZero" classname="com.linkedin.app.CalculatorTest" time="0.003"/>
+  <testcase name="subtract" classname="com.linkedin.app.CalculatorTest" time="0.023">
+    <system-err><![CDATA[June 20, 2025 11:53:37 AM com.linkedin.app.TimingExtension beforeTestExecution
+INFO: Starting execution of test method: subtract() , in class: com.linkedin.app.CalculatorTest, this is: subtract
+June 20, 2025 11:53:37 AM com.linkedin.app.TimingExtension afterTestExecution
+INFO: Finished execution of the test method: subtract() in 6 ms
+]]></system-err>
+  </testcase>
+  <testcase name="divide" classname="com.linkedin.app.CalculatorTest" time="0.001">
+    <system-err><![CDATA[June 20, 2025 11:53:37 AM com.linkedin.app.TimingExtension beforeTestExecution
+INFO: Starting execution of test method: divide() , in class: com.linkedin.app.CalculatorTest, this is: divide
+June 20, 2025 11:53:37 AM com.linkedin.app.TimingExtension afterTestExecution
+INFO: Finished execution of the test method: divide() in 1 ms
+]]></system-err>
+  </testcase>
+  <testcase name="add" classname="com.linkedin.app.CalculatorTest" time="0.001">
+    <system-err><![CDATA[June 20, 2025 11:53:37 AM com.linkedin.app.TimingExtension beforeTestExecution
+INFO: Starting execution of test method: add() , in class: com.linkedin.app.CalculatorTest, this is: add
+June 20, 2025 11:53:37 AM com.linkedin.app.TimingExtension afterTestExecution
+INFO: Finished execution of the test method: add() in 0 ms
+]]></system-err>
+  </testcase>
+  <testcase name="multiply" classname="com.linkedin.app.CalculatorTest" time="0.001">
+    <system-err><![CDATA[June 20, 2025 11:53:37 AM com.linkedin.app.TimingExtension beforeTestExecution
+INFO: Starting execution of test method: multiply() , in class: com.linkedin.app.CalculatorTest, this is: multiply
+June 20, 2025 11:53:37 AM com.linkedin.app.TimingExtension afterTestExecution
+INFO: Finished execution of the test method: multiply() in 0 ms
+]]></system-err>
+  </testcase>
+  <testcase name="divideByZero" classname="com.linkedin.app.CalculatorTest" time="0.001">
+    <system-err><![CDATA[June 20, 2025 11:53:37 AM com.linkedin.app.TimingExtension beforeTestExecution
+INFO: Starting execution of test method: divideByZero() , in class: com.linkedin.app.CalculatorTest, this is: divideByZero
+June 20, 2025 11:53:37 AM com.linkedin.app.TimingExtension afterTestExecution
+INFO: Finished execution of the test method: divideByZero() in 0 ms
+]]></system-err>
+  </testcase>
 </testsuite>
