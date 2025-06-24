@@ -30,7 +30,7 @@ public class SortingAlgorithm {
         array[k++] = right[j++];
       }
     }
-    while (i <= left.length) {
+    while (i < left.length) {
       array[k++] = left[i++];
     }
     while (j < right.length) {
