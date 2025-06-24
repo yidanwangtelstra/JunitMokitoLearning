@@ -3,7 +3,7 @@ package com.linkedin.app;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LibraryService {
+ public class LibraryService {
   private final LibraryRepository libraryRepository;
   private final Map<String, Member> members;
 
