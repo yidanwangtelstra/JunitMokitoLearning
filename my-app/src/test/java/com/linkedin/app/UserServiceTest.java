@@ -1,12 +1,12 @@
 package com.linkedin.app;
 
-import static org.mockito.Mockito.verify;
-
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
+
+import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
 public class UserServiceTest {
@@ -25,5 +25,16 @@ public class UserServiceTest {
 
         underTest.createUser(USERNAME_1);
         verify(userRepository).save(USERNAME_1);
+    }
+
+    @Test
+    public void create_multipleUsers(){
+        underTest.createUser(USERNAME_1);
+        underTest.createUser(USERNAME_2);
+
+        verify(userRepository).save(USERNAME_1);
+        verify(userRepository).save(USERNAME_2);
+        verifyNoMoreInteractions(userRepository);
+        verify(userRepository, never()).update(USERNAME_1);
     }
 }
