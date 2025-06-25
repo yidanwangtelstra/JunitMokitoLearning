@@ -5,6 +5,7 @@ import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.verify;
 
 import java.sql.Timestamp;
+import java.util.List;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -38,6 +39,23 @@ public class UserServiceTest {
 
         assertTrue(areWithinSeconds(new Timestamp(System.currentTimeMillis()),
                 timestampCaptor.getValue(), 2));
+    }
+
+    @Test
+    public void register_multipleUser() {
+        List<String> usernames = List.of("john_doe", "jane_smith", "alice_smith");
+        List<String> emails = List.of("john@example.com", "jane@example.com", "alice@example.com");
+
+        for(int i = 0; i < usernames.size(); i++) {
+            underTest.registerUser(usernames.get(i), emails.get(i));
+            verify(notificationService).send(eq("Welcome " + usernames.get(i)),
+                    eq(emails.get(i)), timestampCaptor.capture());
+        }
+
+        List<Timestamp> capturedTimestamps = timestampCaptor.getAllValues();
+        for( Timestamp ts : capturedTimestamps){
+            assertTrue(areWithinSeconds(ts, new Timestamp(System.currentTimeMillis()), 2));
+        }
     }
 
     private boolean areWithinSeconds(Timestamp timestamp1, Timestamp timestamp2, int seconds) {
