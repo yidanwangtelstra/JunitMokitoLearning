@@ -17,6 +17,7 @@ public class AccountService {
 
   public void debit(String accountId, double amount) {
     double currentBalance = getBalance(accountId);
+    System.out.println("Debiting " + amount + " from account " + accountId + ". Current balance: " + currentBalance);
     accounts.put(accountId, currentBalance - amount);
   }
 }

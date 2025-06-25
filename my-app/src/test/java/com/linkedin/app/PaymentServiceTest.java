@@ -12,6 +12,7 @@ import static org.mockito.Mockito.verify;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
+import org.mockito.Mock;
 import org.mockito.Spy;
 import org.mockito.junit.jupiter.MockitoExtension;
 
@@ -26,12 +27,14 @@ public class PaymentServiceTest {
 
   @Test
   public void processPaymentWithSpy() {
-    doReturn(1000.0).when(accountServiceSpy).getBalance("account1");
+    // using doReturn to stub the getBalance method and make sure the real getBalance method is not called
+    doReturn(666.0).when(accountServiceSpy).getBalance("account1");
 
     boolean result = underTest.processPayment("account1", 500.0);
 
+    System.out.println("result of test1: " + result);
     assertTrue(result);
-    verify(accountServiceSpy, times(2)).getBalance("account1");
+    verify(accountServiceSpy, times(3)).getBalance("account1");
     verify(accountServiceSpy).debit("account1", 500.0);
   }
 
