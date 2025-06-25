@@ -29,23 +29,22 @@ public class OrderServiceTest {
         Order result = orderService.createOrder(CUSTOMER_NAME);
         verify(orderRepository).save(any(Order.class));
         assertEquals(CUSTOMER_NAME, result.getCustomerName());
-
     }
 
     @Test
     public void updateOrderTestSuccess() {
-        Order order = orderService.createOrder(CUSTOMER_NAME);
+        Order order = new Order(CUSTOMER_NAME);
         when(orderRepository.findById(anyInt())).thenReturn(order);
 
         orderService.updateOrder(order);
 
         verify(orderRepository).findById(anyInt());
-        verify(orderRepository, times(2)).save(any(Order.class));
+        verify(orderRepository).save(any(Order.class));
     }
 
     @Test
     public void updateOrderTestFailure(){
-        Order order = orderService.createOrder(CUSTOMER_NAME);
+        Order order = new Order(CUSTOMER_NAME);
         when(orderRepository.findById(anyInt())).thenReturn(null);
 
         IllegalArgumentException e = assertThrows( IllegalArgumentException.class, () -> {
@@ -66,9 +65,9 @@ public class OrderServiceTest {
 
     @Test
     public void getOrderTestSuccess() {
-        Order order = orderService.createOrder(CUSTOMER_NAME);
+        Order order = new Order(CUSTOMER_NAME);
         when(orderRepository.findById(anyInt())).thenReturn(order);
-        verify(orderRepository).save(any(Order.class));
+        verify(orderRepository, never()).findById(anyInt());
         assertEquals(order, orderService.getOrder(1));
     }
 }
