@@ -1,1 +1,5 @@
-com/linkedin/app/HelloController.class
+com/linkedin/app/UserRepository.class
+com/linkedin/app/UserService.class
+com/linkedin/app/User.class
+com/linkedin/app/UserController.class
+com/linkedin/app/Application.class

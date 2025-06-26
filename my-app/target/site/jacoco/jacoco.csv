@@ -1,0 +1,5 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+my-app,com.linkedin.app,User,14,15,0,0,6,7,4,3,4,3
+my-app,com.linkedin.app,UserController,26,0,0,0,7,0,4,0,4,0
+my-app,com.linkedin.app,UserService,14,0,0,0,3,0,3,0,3,0
+my-app,com.linkedin.app,Application,5,3,0,0,2,1,1,1,1,1

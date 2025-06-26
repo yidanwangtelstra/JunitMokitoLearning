@@ -1,2 +1,5 @@
-/workspaces/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app/src/main/java/com/linkedin/app/Application.java
-/workspaces/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app/src/main/java/com/linkedin/app/HelloController.java
+/Users/yidan.wang/Desktop/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app/src/main/java/com/linkedin/app/Application.java
+/Users/yidan.wang/Desktop/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app/src/main/java/com/linkedin/app/UserService.java
+/Users/yidan.wang/Desktop/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app/src/main/java/com/linkedin/app/User.java
+/Users/yidan.wang/Desktop/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app/src/main/java/com/linkedin/app/UserRepository.java
+/Users/yidan.wang/Desktop/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app/src/main/java/com/linkedin/app/UserController.java
