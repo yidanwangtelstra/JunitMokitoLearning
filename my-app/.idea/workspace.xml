@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="846aa650-aee5-4b49-8674-66106ea3eea7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/linkedin/app/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/linkedin/app/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/linkedin/app/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/linkedin/app/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/linkedin/app/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/linkedin/app/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/linkedin/app/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/linkedin/app/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/linkedin/app/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/linkedin/app/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/linkedin/app/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/linkedin/app/UserRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/linkedin/app/UserRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/linkedin/app/UserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/linkedin/app/UserServiceTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="homebrew-17" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+    <option name="jreName" value="17" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ycHDvHc7bMPdXQq3QUsNxsMr9K" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EmailValidator.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.AdditionTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdditionTest (2).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdditionTest.addition.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdditionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AssumptionsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AssumptionsTest.onlyIfEnvVarIsSet.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.add.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.testIllegalArgumentException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DatabaseServiceTest.databaseConnectionFailure.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmailValidatorTest.domainWithOnlyOnePart.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmailValidatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmailValidatorTest.noAtMark.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmailValidatorTest.noDotInDomain.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmailValidatorTest.noLocalOrDomainPart.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmailValidatorTest.testEmptyEmail (1).executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.EmailValidatorTest.testEmptyEmail.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmailValidatorTest.testInvalidEmails.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EnvironmentVariableTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FileProcessorTest.convertFilesToUpperCase (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FileProcessorTest.convertFilesToUpperCase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FileProcessorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GymMembershipTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelloControllerTest.sayHello.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LibraryServiceTest.addBookTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LibraryServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LibraryServiceTest.lendBookTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LibraryServiceTest.lendBookTestFalse.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LibraryServiceTest.registerMemberTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.createOrderTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.getOrderTestFailure.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.getOrderTestSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.updateOrderTestFailure.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.updateOrderTestSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PaymentServiceTest.processPaymentWithSpy.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonTest.personFields.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonTest.personFieldss.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SortingAlgorithmTest.assortedTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SortingAlgorithmTest.assortedTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SortingAlgorithmTest.duplicateTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SortingAlgorithmTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SortingAlgorithmTest.nullOrEmptyTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringUtilsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SystemInfoTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TaskManagerTest.addTask (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TaskManagerTest.addTask.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TaskManagerTest.addTask_duplicateTasks.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TaskManagerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TaskManagerTest.getTask.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TaskManagerTest.removeTask.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.TaskTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TaskTest.getDescription.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TaskTest.getId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TaskTest.setDescription.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TemperatureConverterTest.celsiusToFahrenheitParameterized.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimeConsumingTaskTest.performTaskCompletesWithinTimeLimit.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimeoutTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimeoutTest.methodWithTimeout.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TransactionServiceTest.processTransaction.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserControllerTest.createUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserControllerTest.getUserByIdTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserManagementTests.createUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserManagementTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserManagementTests.getUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserNotificationServiceTest.notifyUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserNotificationServiceTest.notifyUser_EmailException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserRegistrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserRoleTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserRoleTest.hasWritePermission (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserRoleTest.hasWritePermission (2).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserRoleTest.hasWritePermission.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.create_multipleUsers.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.findUserById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.findUserById_nonExistent.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.findUserById_twoUsers.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.getUserById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.getUserByIdTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.register_multipleUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.saveUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UtilityTest.celsiusToFahrenheit.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WeekdayTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WeekdayTests.weekdays.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WeekdayTests.weekends.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.SortingAlgorithm.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.my-app [install,--non-recursive].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.my-app [install].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;08__05b&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yidan.wang/Desktop/complete-guide-to-java-testing-with-junit-5-and-mockito-5915250/my-app/src/Test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.291954&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserControllerTest.getUserByIdNotFoundTest">
+    <configuration name="UserControllerTest.createUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linkedin.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.linkedin.app" />
+      <option name="MAIN_CLASS_NAME" value="com.linkedin.app.UserControllerTest" />
+      <option name="METHOD_NAME" value="createUserTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.getUserByIdNotFoundTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linkedin.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.linkedin.app" />
+      <option name="MAIN_CLASS_NAME" value="com.linkedin.app.UserControllerTest" />
+      <option name="METHOD_NAME" value="getUserByIdNotFoundTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.getUserByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linkedin.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.linkedin.app" />
+      <option name="MAIN_CLASS_NAME" value="com.linkedin.app.UserControllerTest" />
+      <option name="METHOD_NAME" value="getUserByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.getUserByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linkedin.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.linkedin.app" />
+      <option name="MAIN_CLASS_NAME" value="com.linkedin.app.UserServiceTest" />
+      <option name="METHOD_NAME" value="getUserByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.saveUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linkedin.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.linkedin.app" />
+      <option name="MAIN_CLASS_NAME" value="com.linkedin.app.UserServiceTest" />
+      <option name="METHOD_NAME" value="saveUserTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.UserControllerTest.createUserTest" />
+      <item itemvalue="JUnit.UserControllerTest.getUserByIdNotFoundTest" />
+      <item itemvalue="JUnit.UserControllerTest.getUserByIdTest" />
+      <item itemvalue="JUnit.UserServiceTest.getUserByIdTest" />
+      <item itemvalue="JUnit.UserServiceTest.saveUserTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserControllerTest.getUserByIdNotFoundTest" />
+        <item itemvalue="JUnit.UserControllerTest.getUserByIdTest" />
+        <item itemvalue="JUnit.UserControllerTest.createUserTest" />
+        <item itemvalue="JUnit.UserServiceTest.getUserByIdTest" />
+        <item itemvalue="JUnit.UserServiceTest.saveUserTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="846aa650-aee5-4b49-8674-66106ea3eea7" name="Changes" comment="" />
+      <created>1739488745770</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739488745770</updated>
+      <workItem from="1739488747462" duration="815000" />
+      <workItem from="1740186963486" duration="128000" />
+      <workItem from="1750126825579" duration="65000" />
+      <workItem from="1750127052361" duration="1580000" />
+      <workItem from="1750128686819" duration="2574000" />
+      <workItem from="1750209652978" duration="5000" />
+      <workItem from="1750209763113" duration="9000" />
+      <workItem from="1750210878014" duration="2077000" />
+      <workItem from="1750212961475" duration="266000" />
+      <workItem from="1750213240522" duration="115000" />
+      <workItem from="1750213795813" duration="726000" />
+      <workItem from="1750214529623" duration="62000" />
+      <workItem from="1750214598170" duration="88000" />
+      <workItem from="1750214693813" duration="58000" />
+      <workItem from="1750215089466" duration="3000" />
+      <workItem from="1750215097807" duration="10000" />
+      <workItem from="1750215110800" duration="442000" />
+      <workItem from="1750215555909" duration="8609000" />
+      <workItem from="1750227566542" duration="2003000" />
+      <workItem from="1750230110433" duration="193000" />
+      <workItem from="1750230310900" duration="71000" />
+      <workItem from="1750230382999" duration="6196000" />
+      <workItem from="1750383987627" duration="641000" />
+      <workItem from="1750384637167" duration="5822000" />
+      <workItem from="1750400793393" duration="1310000" />
+      <workItem from="1750402107935" duration="4182000" />
+      <workItem from="1750485223037" duration="115000" />
+      <workItem from="1750485368288" duration="979000" />
+      <workItem from="1750486822156" duration="1221000" />
+      <workItem from="1750488049917" duration="1415000" />
+      <workItem from="1750489474396" duration="2028000" />
+      <workItem from="1750650991268" duration="1320000" />
+      <workItem from="1750652320118" duration="53000" />
+      <workItem from="1750652374061" duration="778000" />
+      <workItem from="1750653159870" duration="18113000" />
+      <workItem from="1750745714966" duration="4672000" />
+      <workItem from="1750750822315" duration="5728000" />
+      <workItem from="1750817352682" duration="18386000" />
+      <workItem from="1750898351269" duration="5248000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/linkedin/app/UserControllerTest.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/my_app$TaskManagerTest_removeTask.ic" NAME="TaskManagerTest.removeTask Coverage Results" MODIFIED="1750129579205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.linkedin.app.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/my_app$TaskManagerTest.ic" NAME="TaskManagerTest Coverage Results" MODIFIED="1750130863416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.linkedin.app.*</FILTER>
+    </SUITE>
+  </component>
+</project>
