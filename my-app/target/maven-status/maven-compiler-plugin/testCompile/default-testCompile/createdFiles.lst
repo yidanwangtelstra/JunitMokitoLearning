@@ -1,0 +1,4 @@
+com/linkedin/app/UserServiceTest.class
+com/linkedin/app/UserApplicationIT.class
+com/linkedin/app/UserControllerTest.class
+com/linkedin/app/UserRepositoryTest.class
