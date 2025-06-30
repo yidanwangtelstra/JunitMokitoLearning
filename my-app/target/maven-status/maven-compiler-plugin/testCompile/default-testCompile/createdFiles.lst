@@ -1,0 +1,5 @@
+com/linkedin/app/WeatherResponseTest.class
+com/linkedin/app/WeatherServiceTest.class
+com/linkedin/app/WeatherControllerTest.class
+com/linkedin/app/WeatherApplicationIT.class
+com/linkedin/app/WeatherMainTest.class

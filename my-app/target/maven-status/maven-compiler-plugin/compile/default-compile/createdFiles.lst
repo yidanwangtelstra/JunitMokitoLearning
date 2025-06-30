@@ -1,6 +1,6 @@
 com/linkedin/app/WeatherService.class
-com/linkedin/app/WeatherMain.class
 com/linkedin/app/WeatherResponse.class
+com/linkedin/app/WeatherMain.class
 com/linkedin/app/AppConfig.class
 com/linkedin/app/Application.class
 com/linkedin/app/WeatherController.class

@@ -18,6 +18,7 @@ public class WeatherController {
 
     try {
       WeatherResponse weather = weatherService.getWeather(city);
+      System.out.println("got weather in controller: " + weather);
       return ResponseEntity.ok(weather.getMain().getTemp());
     } catch (Exception e) {
       return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
